@@ -1,0 +1,58 @@
+# Secrets and credentials
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.csr
+*.token
+*token*
+*secret*
+*password*
+*passwd*
+*creds*
+netbox.creds
+
+# Local logs and runtime files
+*.log
+*.pid
+*.sock
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Archives and backups
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.backup
+*.dump
+*.sql
+*.sqlite
+*.sqlite3
+
+# Generated local artifacts
+_rendered/
+tmp/
+temp/
