@@ -14,7 +14,7 @@ NetBox uses PostgreSQL, so a reliable backup strategy matters. A full CT backup 
 
 - Do not store backup archives in this repository.
 - Do not commit exported backups containing passwords, API tokens, or private infrastructure data.
-- Do not commit `/root/netbox.creds`.
+- Do not commit `/<ROOT_GUARDIAN>/netbox.creds`.
 
 ## Future Improvements
 
