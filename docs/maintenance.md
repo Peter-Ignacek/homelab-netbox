@@ -38,4 +38,4 @@ df -h
 - NetBox depends on PostgreSQL.
 - Nginx serves the local HTTPS endpoint.
 - If the UI does not load, check `nginx` first, then `netbox`, then disk space.
-- If authentication is confusing, check `/root/netbox.creds` inside the container.
+- If authentication is confusing, check `/<ROOT_GUARDIAN>/netbox.creds` inside the container.

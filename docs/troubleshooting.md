@@ -26,19 +26,19 @@ journalctl -u netbox -n 100 --no-pager
 If the NetBox password is missing, check:
 
 ```bash
-cat /root/netbox.creds
+cat /<ROOT_GUARDIAN>/netbox.creds
 ```
 
-Use the NetBox User / admin credentials for login. The Django Secret Key is not a user password.
+Use the NetBox User / <ADMIN_WIZARD> credentials for login. The Django Secret Key is not a user password.
 
-## Change the Admin Password
+## Change the <ADMIN_WIZARD> Password
 
 Inside the container:
 
 ```bash
 cd /opt/netbox/netbox
 source /opt/netbox/venv/bin/activate
-python3 manage.py changepassword admin
+python3 manage.py changepassword <ADMIN_WIZARD>
 ```
 
 ## Reverse Proxy Returns 401

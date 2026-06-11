@@ -1,4 +1,4 @@
-﻿# Homelab NetBox Lab
+# Homelab NetBox Lab
 
 Public documentation for my NetBox lab running in a Proxmox homelab.
 
@@ -48,9 +48,9 @@ This repository documents the installation, basic operations, reverse proxy plan
 
 ## Security Notice
 
-Do not commit real passwords, API tokens, private keys, session cookies, `.env` files, or the contents of `/root/netbox.creds`.
+Do not commit real passwords, API tokens, private keys, session cookies, `.env` files, or the contents of `/<ROOT_GUARDIAN>/netbox.creds`.
 
-The file `/root/netbox.creds` exists inside the NetBox LXC and contains sensitive login information. It is referenced in this repository only as an operational note.
+The file `/<ROOT_GUARDIAN>/netbox.creds` exists inside the NetBox LXC and contains sensitive login information. It is referenced in this repository only as an operational note.
 
 ## Quick Commands
 
