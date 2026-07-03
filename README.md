@@ -1,4 +1,4 @@
-# Homelab NetBox Lab
+﻿# Homelab NetBox Lab
 
 Public documentation for my NetBox lab running in a Proxmox homelab.
 
@@ -14,7 +14,7 @@ This repository documents the installation, basic operations, reverse proxy plan
 - CPU: 2 cores
 - RAM: 2048 MiB
 - Disk: 4 GB
-- Local address: `https://192.168.1.168`
+- Local address: `https://<PRIVATE_IP>`
 - NetBox version: 4.6.2
 - PostgreSQL: 16
 - IPv4 Internet: working

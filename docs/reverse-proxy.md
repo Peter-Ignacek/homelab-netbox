@@ -1,4 +1,4 @@
-# Reverse Proxy
+﻿# Reverse Proxy
 
 This section is reserved for the future reverse proxy setup.
 
@@ -6,7 +6,7 @@ This section is reserved for the future reverse proxy setup.
 
 - Reverse proxy: Nginx Proxy Manager
 - Example public domain: `netbox.ignacek.com`
-- Forward target: `https://192.168.1.168:443`
+- Forward target: `https://<PRIVATE_IP>:443`
 - SSL: Nginx Proxy Manager / Let's Encrypt
 
 ## Notes

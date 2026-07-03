@@ -1,4 +1,4 @@
-# Installation
+﻿# Installation
 
 NetBox was installed on Proxmox VE using Proxmox VE Helper-Scripts / community-scripts.
 
@@ -14,7 +14,7 @@ The helper script creates an LXC container and installs NetBox automatically. Th
 - CPU: 2 cores
 - RAM: 2048 MiB
 - Disk: 4 GB
-- Local address: `https://192.168.1.168`
+- Local address: `https://<PRIVATE_IP>`
 - NetBox version: 4.6.2
 - PostgreSQL: 16
 - IPv4 Internet: working
